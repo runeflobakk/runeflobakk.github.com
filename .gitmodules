@@ -1,0 +1,3 @@
+[submodule "invoking-some-dynamics"]
+	path = invoking-some-dynamics
+	url = git://github.com/runeflobakk/invoking-some-dynamics.git
