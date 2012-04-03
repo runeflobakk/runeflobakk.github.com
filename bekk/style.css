@@ -1,0 +1,86 @@
+html, body { 
+	font-family: Georgia, serif;
+	font-size: 32px;
+	background: #0c0703 url('images/background_gradient.jpg') repeat-x; /* Blackish */
+}
+
+#slideshow {
+}
+
+.slide { background: white; }
+	
+h1, h2, h3, h4, h5, h6 { 
+	text-shadow: none; 
+	background-color: inherit; 
+	font-family: 'Sorts Mill Goudy', 'Droid Serif', Garamond, Georgia, serif;
+	color: #847363; /* Dark brown */
+	font-weight: 400; 
+}
+	
+/**	
+blue (links): #019AB6
+blue (muted links) inactive: #6DA6AE 
+header.. brown: #847363
+light brown text: #C5BEB5
+ingress text-light brown: #B0A599
+black-bg: #0C0703
+orange: active: #F04E52 (ff6967)
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>	
+<link href='http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy' rel='stylesheet' type='text/css'>
+**/
+	
+p { color: #a09583; }
+
+h1 {
+	background-color: inherit; 
+	color: #0c0703;	
+	font-size: 72px;
+	text-shadow: none; 
+	padding: 20px;
+	-moz-border-radius:    15px;
+	-webkit-border-radius: 15px;
+	border-radius:         15px;
+}
+h2 { 
+	font-family: Georgia, serif;
+	font-size: 48px; 
+}
+
+a { color: #019AB6; text-decoration: none; } /* #41C8F0 */
+a:hover { color: #F04E52; text-decoration: none; }
+
+agenda.ul { list-style-type: none; }
+agenda.li { 
+	font-size: 2.5em; 
+	padding: 0.4em 0; 
+	font-family: Georgia, serif; 
+	font-weight: 400; 
+	color: #847363;
+}
+
+
+pre code {
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+background-color: #0c0703; color: #fff; padding: 1em 2em;
+}
+pre code .number, pre code.css .value, pre code.css .value .number { color: #6DA6AE; font-weight: bold; }
+pre code .keyword, pre code .keymethods, pre code .tag .title { color: #F04E52; font-weight: bold; }
+pre code.css .id, pre code .symbol { color: #F04E52; font-weight: normal; }
+pre code .string, pre code .tag .value { color: #019AB6; }
+pre code .function, pre code.css .class, pre code .preprocessor { color: #87A558; }
+pre code .title { color: #DBEC62; font-weight: normal; }
+pre code .params { color: #87A558; }
+pre code .literal { }
+
+p > code, li > code { padding: 1px 4px; border: 1px solid #CCC; background-color: #EEE; }
+
+#slideshow .slide .content code { font-family: 'Inconsololata', monospace; }
+code { position: relative; }
+code a.run { position: absolute; top: 10px; right: 10px; }
+code .function {color: #900;}
+
+.position { font-size: 0.8em; }
+
+
